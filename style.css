@@ -1,7 +1,99 @@
-h1{
-    color: black;
+body {
+    font-family:Arial, Helvetica, sans-serif ;
     background-color: #FFFFFF;
+    color: #222222;
+    margin:0;
+    padding:0;
+    text-align:  center;
 }
+/* NAVIGATION */
+.navbar {
+    list-style: none;
+    background-color: #111111;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+.navbar a {
+       color: white ;
+       text-decoration: none;
+       font-weight: bold;
+}
+
+
+.navbar a :hover {
+color: #d62828;
+}
+
+/*LOGO */
+.logo  {
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+/* MAIN TITLE*/
+h1{
+    color: #111111;
+    margin-top: 20px;
+}
+
+/* SUB HEADINGS*/
+h2{
+  color: #d62828;
+  margin-top: 25px;
+}
+
+/* PARAGRAPH */
 P{
-    color: black;
+  width: 70%;
+  margin: 10px auto;
+  line-height: 1.6;
 }
+
+/*FEATURES LIST */
+.features {
+    background: color E 0E 0E 0;
+    padding: 20px;
+    width: 50%;
+    margin:  20px auto;
+    list-style: none;
+    border-radius: 8px;
+}
+
+.features li {
+    padding: 10px;
+    border-left:  4px solid #d62828;
+    margin: 10px 0,
+
+}
+ 
+ /* FOOTER*/
+ footer{
+     background-color: #111111;
+     color: white;
+     padding: 15px;
+     margin-top: 30px;
+
+ }
+
+ iframe{
+     margin-top: 20px;
+ }
+ iframe{
+    margin-top: 20px;
+ }
+ .quote-btn{
+background-color: #d62828;
+color: white;
+padding: 12px 20px;
+ text-decoration: none;
+ display: inline-block;
+ }
