@@ -3,50 +3,81 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services</title>
+    <title>Our Embroidery Services | Superior Designs Garments</title>
+    <!--SEO-->
+    <meta name="description" content="Explore Superior Designs Garments' embroidery services including logo embroidery, school uniform embroidery, personalised gifts, wedding embroidery, and branded clothing.">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav >
- <ul class="navbar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="myaboutus.html">About Us</a></li>
-    <li><a href="ourservices.html" >Our services </a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="contactus.html">Contact Us</a></li>
+    <!-- HEADER -->
+<header class="header">
+<div class="logo">
+    <!--This image is located in a different folder-->
+    <img src="images/logo.jpg" alt="superior design garments logo" class="logo">
+ </div>
+ 
+<!-- Hamburger button (js needs this ID) -->
+    <button id="menu-toggle" class="menu-toggle">☰</button>
+    <!-- Navbar (js will toggle "active" on this) -->
+<nav>
+    <ul id="navbar" class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="myaboutus.html">About Us</a></li>
+        <li><a href="ourservices.html">Our Embroidery Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
     </ul>   
 </nav>
-<main>
-<h1> Our Services</h1>
-<p> 1.	Logo embroidery for business uniforms</p>
-<!--This image is located in a different folder-->
-<img src="images/bliss events 1.png" alt="logo embriodery for business" height="300" width="285">
-<p>2.	School  uniform embroidery </p>
-<!--This image is located in a different folder-->
-<img src="images/ben scott.png" alt="name enbriodery" height="200" width="285">
-<p>3.	Embroidery on jackets, shirts, caps, and bags etc. </p>
-<!--This image is located in a different folder-->
-<img src="images/beanie.png" alt="beanie logo embriodery" height="300" width="285">
-<p>4.	Personalised gifts </p>
-<!--This image is located in a different folder-->
-<img src="images/baby towel.jpg" alt="personal gift embriodery" height="300" width="285">
-<p>5.	Wedding embroidery items</p>
-<!--This image is located in a different folder-->
-<img src="images/roora.jpg" alt="wedding embriodery" height="300" width="285">
-<p>6.	Special occasion embroidery for birthdays, anniversaries, and Valentine's Day </p>
-<!--This image is located in a different folder-->
-<img src="images/teddy bear.jpg" alt="teddy embriodery" height="200" width="285">
+   </header>  
 
+<main>
+<h1> Professional Embroidery Services </h1>
+<p>Superior Designs Garments provides professional custom embroidery services for businesses, schools and individuals. We specialise in logo embroidery, school uniform embroidery, personalised gifts and branded clothing.</p>
+<h2> 1.	Logo embroidery for business uniforms</h2>
+<!--This image is located in a different folder-->
+<div class="gallery"></div>
+<img src="images/bliss-events-1.png" alt="Custom logo embriodery for business" height="300" width="285">
+<h2>2.	School  uniform embroidery </h2>
+<!--This image is located in a different folder-->
+<img src="images/ben-scott.png" alt="School uniform name embriodery" height="200" width="285">
+<h2>3.	Embroidery on jackets, shirts, caps, and bags etc. </h2>
+<!--This image is located in a different folder-->
+<img src="images/beanie.png" alt="custom embroidered logo on beanie" height="300" width="285">
+<h2>4.	Personalised gifts </h2>
+<!--This image is located in a different folder-->
+<img src="images/baby-towel.jpg" alt="personal gift embriodery" height="300" width="285">
+<h2>5.	Wedding embroidery items</h2>
+<!--This image is located in a different folder-->
+<img src="images/roora.jpg" alt=" Custom wedding embriodery" height="300" width="285">
+<h2>6.	Special occasion embroidery for birthdays, anniversaries, and Valentine's Day </h2>
+<!--This image is located in a different folder-->
+<img src="images/teddy-bear.jpg" alt="teddy heart embriodery" height="200" width="285">
+</div>
 <p> Every embroidery order is unique, pricing may vary depending on the size of the design, number of garments, and embroidery requirements. Contact us for a personalised quote based on your needs.</p>
-<a href="contactus.html"class="quote-btn"> Request a Quote</a>
+<a href="contactus.html"class="quote-btn"> Request Your Free Embroidery Quote</a>
 
 
 <h2>See Our Embriodery Process</h2>
 
 <p> Watch how professional embroidery is done using computerized machines.</p>
 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OzGi0YEIaok?si=yojOm1yjlxDL2Rc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<a href="gallery.html" class="gallery btn"> See Our Embroidery  Work in Our Gallery</a>
+
+
 </main>
-<footer>&copy 2026 Superior Designs Garments.All rights reserved</footer> 
+<footer>
+ <div class="footer-content">
+        <!-- LOGO -->
+ <img src="images/logo.jpg" alt="Superior Designs Garments logo" class="footer-logo"> 
+<p><strong>Superior Designs Garments</strong></p>
+<p>Embriodery that brings your ideas to life.</p>
+<p>Email: info@superiordesignsgarments.org | Phone: +263 71 933 3097</p>
+<p id="dateTime"></p>
+<p>© 2026 Superior Designs Graments</p>
+</div>
+</footer>
 </body>
 </html>

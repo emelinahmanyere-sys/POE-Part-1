@@ -3,40 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <link rel="stylesheet" href=" style.css">
+    <!--SEO-->
+    <title>Embroidery Gallery | Superior Designs Garments </title>
+    <meta name="description" content="View the embroidery work of Superior Designs Garments, including custom logos, school uniforms, branded clothing, and personalised embroidery projects.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+     <!-- HEADER -->
+<header class="header">
+<div class="logo">
+    <!--This image is located in a different folder-->
+    <img src="images/logo.jpg" alt="superior design garments logo" class="logo">
+ </div>
+    <!-- Navigation -->
     <nav>
-   <ul class="navbar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="myaboutus.html">About Us</a></li>
-    <li><a href="ourservices.html" >Our services </a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="contactus.html">Contact Us</a></li>
-    </ul> 
-    </nav>
-    <main>
-    <h1>Gallery</h1>
+<!-- Hamburger button (js needs this ID) -->
+    <button id="menu-toggle" class="menu-toggle">☰</button>
 
-    <h2> Our Past work in pictures</h2>
+    <!-- Navbar (js will toggle "active" on this) -->
+    <ul id="navbar" class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="myaboutus.html">About Us</a></li>
+        <li><a href="ourservices.html">Our Embroidery Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>    
+</nav>
+</header>
+    <main>
+    <h1>Our Embroidery Work </h1>
+
+    <h2>Examples of Our Custom Embroidery Projects   </h2>
     <!--These images are located in a different folder-->
-<img src="images/beanie.png" alt="beanie logo embriodery" height="300" width="285">
-<img src="images/bliss events 1.png" alt="logo embriodery for business" height="300" width="285">
-<img src="images/cap.png" alt="cap embriodery" height="300" width="285">
-<img src="images/church 1.png" alt="church embriodery" height="300" width="285">
-<img src="images/clothbadge.png" alt="badge embriodery"height=300 width="285">
-<img src="images/funeral 1.png" alt="t-shirt embriodery" height="300" width="285">
-<img src="images/school badge.png" alt="school logo embriodery" height="300" width="285">
-<img src="images/muast 1.png" alt="uni embriodery" height="300" width="285">
-<img src="images/muast2.png" alt="uni embriodery" height="300" width="285">
-<img src="images/ben scott.png" alt="personalized branding" height="300" width="285">
-<img src="images/pharmacy 1.png" alt="business embriodery" height="300" width="285">
-<img src="images/rasta 1.png" alt="rasta embriodery" height="300" width="285">
-<img src="images/roora.jpg" alt="wedding embriodery" height="300" width="285">
-<img src="images/baby towel.jpg" alt="personal gift embriodery" height="300" width="285">
-<img src="images/teddy bear.jpg" alt="teddy embriodery" height="300" width="285">
+
+<div class="gallery">
+
+    <img src="images/beanie.png" alt="custom embroidered logo on beanie">
+    <img src="images/bliss-events-1.png" alt=" custom logo embriodery for business">
+    <img src="images/cap.png" alt="Cap with embroidered branding">
+    <img src="images/church.png" alt=" custom church logo embriodery">
+    <img src="images/cloth-badge.png" alt=" school badge embriodery">
+    <img src="images/funeral.png" alt=" custom t-shirt embriodery">
+    <img src="images/school-badge.png" alt="School badge embroidery design">
+    <img src="images/muast-1.png" alt="university logo embriodered design">
+    <img src="images/muast-2.png" alt="university logo  embriodered design ">
+    <img src="images/ben-scott.png" alt=" school uniform name embriodery">
+    <img src="images/pharmacy.png" alt="business logo embriodery">
+    <img src="images/rasta.png" alt="rasta embriodery">
+    <img src="images/roora.jpg" alt="Custom wedding embroidery item">
+    <img src="images/baby-towel.jpg" alt="personal gift embriodery">
+    <img src="images/teddy-bear.jpg" alt="teddy heart embriodery">
+
+</div>
 </main>
-    <footer>&copy 2026 Superior Designs Garments.All rights reserved</footer> 
+    <footer>
+  <div class="footer-content">
+        <!-- LOGO -->
+ <img src="images/logo.jpg" alt="Superior Designs Garments logo" class="footer-logo">   
+<p><strong>Superior Designs Garments</strong></p>
+<p>Embriodery that brings your ideas to life.</p>
+<p>Email: info@superiordesignsgarments.org | Phone: +263 71 933 3097</p>
+<p id="dateTime"></p>
+<p>© 2026 Superior Designs Graments</p>
+</div>
+</footer>   
 </body>
 </html>

@@ -3,29 +3,45 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Superior Designs Garments/Home page</title>
-    <link rel="stylesheet" href=" style.css">
+    
+    <title>Superior Designs Garments | Custom Embroidery & Branded Clothing</title>
+    <!--SEO-->
+    <meta name="description" content="Superior Designs Garments offers high-quality custom embroidery, school uniform name branding, and corporate logo embroidery for businesses, schools, and individuals.">
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+
 </head>
 
 <body>
-    <nav>
-    <ul class="navbar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="myaboutus.html">About Us</a></li>
-    <li><a href="ourservices.html" >Our services </a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="contactus.html">Contact Us</a></li>
-    </ul>
-    </nav>
+<!-- HEADER -->
+<header class="header">
+<div class="logo">
+    <!--This image is located in a different folder-->
+    <img src="images/logo.jpg" alt="superior design garments custom embriodery logo" class="logo">
+ </div>
+ 
+<!-- Hamburger button (js needs this ID) -->
+    <button id="menu-toggle" class="menu-toggle">☰</button>
+    <!-- Navbar (js will toggle "active" on this) -->
+<nav>
+    <ul id="navbar" class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="myaboutus.html">About Us</a></li>
+        <li><a href="ourservices.html">Our Embroidery Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>   
+</nav>
+   </header>  
 
     <main>
-    <!--This image is located in a different folder-->
-    <img src="images/logo.jpg" alt="superior design garments logo" height="300" width="300">
-    <h1>Superior Designs Garments</h1>
-
+<!--This image is located in a different folder-->
+    
+    <h1>Custom Embroidery & Branded Garments in Zimbabwe</h1>
+    
     <h2> Embroidery  that brings your ideas to life</h2> 
 
-    <p>Superior Designs Garments specialises in professional embroidery and personalised garments for businesses, schools, and special occasions. We provide custom logo embroidery, school uniform name embroidery, personalised gifts, and branded clothing with a focus on quality, creativity, and customer satisfaction. </p>
+    <p>Superior Designs Garments specialises in custom embroidery  in Zimbabwe including businesses, schools, and special occasions. We provide custom logo embroidery, school uniform name embroidery, personalised gifts, and branded clothing with a focus on quality, creativity, and customer satisfaction. </p>
 
 <p>Every garment is carefully embroidered using our reliable Butterfly computerized embroidery machine, ensuring attention to detail, durability, and a professional finish. Our mission is to help individuals, schools, and businesses showcase their garments with pride through high-quality embroidery they can trust.</p>
     
@@ -39,6 +55,16 @@
 
     </main>
 
-    <footer>&copy 2026 Superior Designs Garments.All rights reserved</footer> 
+    <footer>
+    <div class="footer-content">
+        <!-- LOGO -->
+ <img src="images/logo.jpg" alt="Superior Designs Garments embriodery  logo Marondera" class="footer-logo"> 
+<p><strong>Superior Designs Garments</strong></p>
+<p>Embriodery that brings your ideas to life.</p>
+<p>Email: info@superiordesignsgarments.org | Phone: +263 71 933 3097</p>
+<p id="dateTime"></p>
+<p>© 2026 Superior Designs Graments</p>
+</div>
+</footer>
 </body>
 </html>

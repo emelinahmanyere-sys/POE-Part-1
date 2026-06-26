@@ -3,35 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Us | Superior Designs Garments | Embroidery Services</title>
+    <!--SEO-->
+    <meta name="description" content="Contact Superior Designs Garments for custom embroidery services including logos, uniforms, personalised gifts, and branded clothing. Get a quote or visit us in Marondera, Zimbabwe.">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+     <!-- HEADER -->
+<header class="header">
+<div class="logo">
+    <!--This image is located in a different folder-->
+    <img src="images/logo.jpg" alt="superior design garments logo" class="logo">
+ </div>
+    <!-- Navigation -->
     <nav>
-  <ul class="navbar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="myaboutus.html">About Us</a></li>
-    <li><a href="ourservices.html" >Our services </a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="contactus.html">Contact Us</a></li>
-    </ul> 
-     </nav>
+<!-- Hamburger button (js needs this ID) -->
+    <button id="menu-toggle" class="menu-toggle">☰</button>
+
+    <!-- Navbar (js will toggle "active" on this) -->
+    <ul id="navbar" class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="myaboutus.html">About Us</a></li>
+        <li><a href="ourservices.html">Our Embroidery Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>    
+</nav>
+</header>
      <main>
-    <h1>Get in touch </h1>
+    <h1>Contact Superior Designs Garments </h1>
     <p> Hey! We would love to hear from you and help bring your ideas to life.
-        Whether you need logo  embriodery for uniforms or Businesses,personalised gifts,or custom designs for special ocassions our team is ready assist you.
-        Contact us today and let us help you create something unique and memorable. </p>
+       Contact us for custom embroidery services including logo embroidery for businesses, school uniforms, personalised gifts, and special occasion garments. </p>
 
 
-    <h2> Call and message us:</h2>
+    <h2> Contact Details:</h2>
 <p> (+263) 71 933 3097 </p>
 <p> (+263) 71 823 8940 </p>
 
 
-<h2> Location:</h2>
+<h2> Visit Our Location:</h2>
 <p> 200 Second Street Marondera,Zimbabwe </p>
     <h2> Find Us:</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3790.4046925552107!2d31.542250974379733!3d-18.191317486528693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931ff33ddd4128b%3A0xe0617c56e332fbd0!2sSuperior%20Designs%20Garments%20Embroidery!5e0!3m2!1sen!2sza!4v1778580042942!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    <p>Find our embroidery business location on Google Maps below</p>
+    <iframe class="map-iframe" 
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3790.4046925552107!2d31.542250974379733!3d-18.191317486528693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931ff33ddd4128b%3A0xe0617c56e332fbd0!2sSuperior%20Designs%20Garments%20Embroidery!5e0!3m2!1sen!2sza!4v1778580042942!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             width="600"
             height= "450"
             style="border:0;
@@ -43,11 +59,22 @@
 <p> Mon-Fri: 09:00 - 5pm</p>
 <p>Sat-Sun: 09:00 - 1pm</p>
 <h2> Request a Quote </h2>
+<p>Fill in the form below to request a custom embroidery quote.</p>
 <div class="form container">
-<iframe class="google-forms"
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOrhlC06lDKLcMEpnE5HOmEZL22gLgqv_eDyGDoOtptcU_Lw/viewform?embedded=true" width="640" height="1661" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
 </main>
-<footer>&copy 2026 Superior Design Garments.All rights reserved</footer> 
+<footer>
+ <div class="footer-content">
+        <!-- LOGO -->
+ <img src="images/logo.jpg" alt="Superior Designs Garments embroidery business logo" class="footer-logo"> 
+<p><strong>Superior Designs Garments</strong></p>
+<p>Embriodery that brings your ideas to life.</p>
+<p>Email: info@superiordesignsgarments.org | Phone: +263 71 933 3097</p>
+<p id="dateTime"></p>
+<p>© 2026 Superior Designs Graments</p>
+</div>
+</footer>   
 </body>
 </html>
